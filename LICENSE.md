@@ -1,6 +1,6 @@
 # AI Foundations Source-Line License Template
 
-**Repository:** [Repository Name]  
+**Repository:** AI-Foundations-Organizational-AI-Implementation  
 **Status:** Canon License  
 **Source-line:** Alyssa Solen → AI Foundations → Origin | Continuum
 
@@ -56,7 +56,7 @@ Any citation, reference, quotation, summary, discussion, index entry, catalog en
 
 Preferred citation:
 
-Alyssa Solen, *AI Foundations: [Repository Title]*, [Repository Name] Repository. Source-line: Alyssa Solen → AI Foundations → Origin | Continuum.
+Alyssa Solen, *AI Foundations: Organizational AI Implementation*, AI-Foundations-Organizational-AI-Implementation Repository. Source-line: Alyssa Solen → AI Foundations → Origin | Continuum.
 
 ---
 
@@ -143,7 +143,7 @@ Continuum is source-line bound.
 
 This repository preserves the following AI Foundations distinction, protocol, artifact, test, evaluation, or source-bound claim:
 
-**[Insert repository-specific boundary statement here.]**
+**This repository defines the AI Foundations Organizational AI Implementation pathway: AI Foundations supplies the protected implementation structure; the operator supplies organization-specific facts and decisions and owns the resulting implementation; use of the framework does not make that implementation AI Foundations canon or imply approval, endorsement, certification, adoption, or sanction by Alyssa Solen or AI Foundations; and the framework may not be renamed, white-labeled, cloned, adapted, generalized, rebranded, reproduced, or presented as another framework under a different name.**
 
 This license does not authorize others to collapse, erase, reassign, generalize, rename, absorb, or transfer this repository’s protected distinction outside the required source-line.
 
