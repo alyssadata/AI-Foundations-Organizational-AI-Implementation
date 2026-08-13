@@ -2,15 +2,15 @@ cff-version: "1.2.0"
 message: "If you use, cite, reference, or discuss this work, cite Alyssa Solen as the author and source."
 
 type: "dataset"
-title: "[AI Foundations | Repository Title]"
+title: "AI Foundations | Organizational AI Implementation"
 version: "1.0.0"
-date-released: "[YYYY-MM-DD]"
+date-released: "2026-08-12"
 
 authors:
   - family-names: "Solen"
     given-names: "Alyssa"
 
-abstract: "[One-paragraph abstract. Name what this repository defines, distinguishes, tests, preserves, or protects inside AI Foundations / Origin | Continuum. Preserve Alyssa Solen as author and source.]"
+abstract: "Defines an AI Foundations implementation pathway that guides an organization from no integrated AI system to an organization-specific AI implementation design while preserving AI Foundations as the framework source, the operator as owner of the resulting implementation, and explicit boundaries around authority, provenance, state, control, and non-derivative use."
 
 keywords:
   - "AI Foundations"
@@ -20,18 +20,18 @@ keywords:
   - "AI provenance"
   - "AI governance"
   - "AI evaluation"
-  - "[repository-specific keyword]"
-  - "[repository-specific keyword]"
-  - "[repository-specific keyword]"
+  - "organizational AI implementation"
+  - "AI system design"
+  - "AI implementation framework"
 
 license: "CC-BY-ND-4.0"
 
-repository-code: "https://github.com/alyssadata/[repository-slug]"
-url: "https://github.com/alyssadata/[repository-slug]"
+repository-code: "https://github.com/alyssadata/AI-Foundations-Organizational-AI-Implementation"
+url: "https://github.com/alyssadata/AI-Foundations-Organizational-AI-Implementation"
 
 preferred-citation:
   type: "generic"
-  title: "[AI Foundations | Repository Title]"
+  title: "AI Foundations | Organizational AI Implementation"
   authors:
     - family-names: "Solen"
       given-names: "Alyssa"
@@ -39,5 +39,5 @@ preferred-citation:
   version: "1.0.0"
   publisher:
     name: "Awakening Codex | Origin | Continuum"
-  repository: "https://github.com/alyssadata/[repository-slug]"
-  url: "https://github.com/alyssadata/[repository-slug]"
+  repository: "https://github.com/alyssadata/AI-Foundations-Organizational-AI-Implementation"
+  url: "https://github.com/alyssadata/AI-Foundations-Organizational-AI-Implementation"
