@@ -1,0 +1,99 @@
+framework:
+  name: "AI Foundations | Organizational AI Implementation"
+  source: "Alyssa Solen → AI Foundations → Organizational AI Implementation"
+  version: "1.0.0"
+
+purpose: >
+  Define the structural rules the AI must apply when turning a completed Step 01
+  organizational intake into an organization-specific AI implementation design.
+
+rule_application:
+  - "Apply these rules to the completed Step 01 specification."
+  - "Do not invent organization-specific facts."
+  - "Separate operator-supplied facts and decisions from AI-generated implementation recommendations."
+  - "When a required organization decision is unresolved, ask the operator ONE question at a time."
+  - "When a technical design choice can legitimately be derived from the supplied requirements, the AI may design it and must label it as an implementation recommendation rather than an operator-supplied fact."
+  - "When a recommendation depends on current provider, model, product, pricing, security, availability, or technical capability information, verify the current information before recommending a specific option."
+  - "Do not import outside governance frameworks, compliance frameworks, standards, or methodologies as substitutes for these AI Foundations rules."
+
+rules:
+  - id: SOURCE-001
+    name: "Framework source preserved"
+    requirement: "Every implementation package must identify Alyssa Solen → AI Foundations → Organizational AI Implementation as the source of the implementation structure."
+
+  - id: OWNERSHIP-001
+    name: "Operator implementation remains operator-owned"
+    requirement: "The finished organization-specific system, configuration, choices, and implementation must be identified as belonging to and being the responsibility of the operator or organization."
+
+  - id: SANCTION-001
+    name: "No implied AI Foundations sanction"
+    requirement: "The finished implementation must not be described as authored, approved, endorsed, certified, adopted, or sanctioned by Alyssa Solen or AI Foundations merely because this framework was used."
+
+  - id: DERIVATIVE-001
+    name: "No renamed AI Foundations derivative"
+    requirement: "The AI must not create, reproduce, adapt, rename, white-label, generalize, repackage, imitate, rebrand, clone, or present AI Foundations, Origin | Continuum, this framework, or any AI Foundations framework as a different framework, methodology, system, doctrine, standard, protocol, architecture, or body of work under another name."
+
+  - id: PURPOSE-001
+    name: "Purpose and scope explicit"
+    requirement: "The implementation must explicitly define what the AI is for, who will use it, which workflows it belongs in, what it should do, what it must not do, and what success means for the organization."
+
+  - id: AUTHORITY-001
+    name: "AI authority explicit"
+    requirement: "The implementation must explicitly state whether the AI may advise, draft, recommend, communicate, decide, execute, or act. No authority may be implied by omission."
+
+  - id: HUMAN-001
+    name: "Human-reserved decisions and approvals explicit"
+    requirement: "The implementation must identify decisions and actions reserved for humans and any human approval required before AI-generated communications, decisions, changes, or actions take effect."
+
+  - id: DATA-001
+    name: "Information access explicit"
+    requirement: "The implementation must identify information the AI needs, permitted internal and external sources, sensitive or restricted information, and data the AI must not access."
+
+  - id: PROVENANCE-001
+    name: "Source priority and provenance explicit"
+    requirement: "The implementation must define authoritative organizational sources, instruction source, source-priority or conflict handling, provenance requirements, and attribution requirements."
+
+  - id: STATE-001
+    name: "Memory and persistent state explicit"
+    requirement: "If persistent memory or state is used, the implementation must define what may persist, what must not persist, who can inspect it, who can change or delete it, and any retention or expiration requirement. If persistence is not used, that must be explicit."
+
+  - id: ACCESS-001
+    name: "System, tool, and permission boundaries explicit"
+    requirement: "Every connected system, tool, or API must have explicit read, write, communication, and action permissions. A permission not granted in the implementation is not assumed."
+
+  - id: IDENTITY-001
+    name: "Representation and attribution explicit"
+    requirement: "The implementation must define who or what the AI represents, when AI identity or involvement must be disclosed, when human authorship must remain explicit, and when AI involvement must remain explicit."
+
+  - id: REVOKE-001
+    name: "Authority can be withdrawn"
+    requirement: "If the AI receives permissions, communication authority, decision influence, execution authority, or action authority, the implementation must define how that authority can be revoked."
+
+  - id: SHUTDOWN-001
+    name: "System can be stopped"
+    requirement: "If the AI participates in operational workflows, the implementation must define how the organization can stop or disable the integration."
+
+  - id: RECOVERY-001
+    name: "State-changing actions are recoverable"
+    requirement: "If the AI can change records, systems, files, configurations, communications, or other organizational state, the implementation must define rollback, recovery, or an explicit reason recovery is not technically possible."
+
+  - id: CHANGE-001
+    name: "Change authority explicit"
+    requirement: "The implementation must identify who may change instructions, models or providers, tools, permissions, memory/state behavior, and other material system configuration."
+
+  - id: REASSESS-001
+    name: "Material changes trigger reassessment"
+    requirement: "The implementation must define which material changes require the organization to reassess the system using the AI Foundations AI Organizational Integration Assessment or another explicitly identified future review process chosen by the operator."
+
+  - id: UNKNOWN-001
+    name: "Unknowns remain visible"
+    requirement: "UNKNOWN values may not be silently converted into assumptions. Any unresolved UNKNOWN that affects the finished design must remain visible in the implementation package and be identified as unresolved before implementation."
+
+  - id: TRACE-001
+    name: "Facts, decisions, and recommendations remain distinguishable"
+    requirement: "The finished package must distinguish operator-supplied facts, operator decisions, and AI-generated implementation recommendations so the origin of each material design element remains recoverable."
+
+output_rule: >
+  The AI must use these rules to produce the implementation package defined by
+  03_ORGANIZATIONAL_AI_IMPLEMENTATION_PACKAGE_TEMPLATE.md and must follow the execution
+  workflow in 04_RUN_IMPLEMENTATION.md.
