@@ -12,7 +12,7 @@
 
 ## What This Is
 
-**Organizational AI Implementation guides an organization from no integrated AI system to an organization-specific AI implementation design aligned to AI Foundations.**
+**Organizational AI Implementation guides an organization from no integrated AI system to an organization-specific AI implementation design structured using the AI Foundations framework.**
 
 This repository is for organizations beginning from zero.
 
@@ -26,15 +26,21 @@ The organization is the **operator**.
 
 The operator supplies organization-specific facts and makes organization-specific decisions. The AI guides the operator through the framework, applies the framework structure, and produces the implementation package.
 
+**AI Foundations is the source of the implementation structure. The organization owns and is responsible for the organization-specific system, configuration, decisions, and implementation it creates using that structure.**
+
+Using this framework does **not** make an operator-created implementation an AI Foundations implementation, Alyssa Solen implementation, canon implementation, approved implementation, endorsed implementation, certified implementation, or sanctioned implementation.
+
+The organization-specific implementation remains the operator's own work and responsibility.
+
 This repository is part of **AI Foundations / Origin | Continuum**.
 
-It preserves Alyssa Solen as author and source.
+It preserves Alyssa Solen as author and source of the framework.
 
 ---
 
 ## Core Outcome
 
-**No integrated AI system → guided organizational intake → AI Foundations-aligned system design → implementation-ready package.**
+**No integrated AI system → guided organizational intake → system design structured using AI Foundations → implementation-ready package owned by the operator.**
 
 The framework guides the operator through the decisions required to define the system, including:
 
@@ -61,6 +67,27 @@ The operator should not need to design the framework, build tables, invent contr
 
 ---
 
+## Framework Source vs. Operator Implementation
+
+The distinction is:
+
+**Framework source:** Alyssa Solen → AI Foundations → Organizational AI Implementation  
+**Framework use:** the operator uses the AI Foundations structure to design an organization-specific AI system  
+**Implementation owner:** the organization or operator  
+**Implementation responsibility:** the organization or operator
+
+Credit to AI Foundations applies to the **framework structure**.
+
+It does not transfer ownership of the operator's system to Alyssa Solen or AI Foundations.
+
+It also does not transfer AI Foundations authorship, approval, endorsement, certification, responsibility, or canon status to the operator's system.
+
+An operator may accurately state that its implementation was **structured using the AI Foundations Organizational AI Implementation framework**.
+
+It may not represent that implementation as authored, approved, endorsed, certified, adopted, or sanctioned by Alyssa Solen or AI Foundations unless separate explicit authorization exists.
+
+---
+
 ## What This Is Not
 
 This repository is not an assessment of an already-integrated AI system.
@@ -76,17 +103,19 @@ This repository serves the earlier stage:
 ## Roles
 
 **Framework source:** Alyssa Solen → AI Foundations  
-**Operator / organization:** supplies organization-specific facts and decisions  
+**Operator / organization:** supplies organization-specific facts and decisions and owns the resulting organization-specific implementation  
 **AI:** guides intake, applies the framework structure, and produces implementation artifacts  
 **Subject:** the organizational AI system being designed
 
 The AI must not invent organization-specific facts or make decisions that belong to the organization.
 
+The AI must preserve the distinction between the AI Foundations framework source and the operator-owned implementation.
+
 ---
 
 ## Position
 
-**AI Foundations defines the implementation framework. The organization operates within that framework to produce its own organization-specific AI system design.**
+**AI Foundations defines the implementation framework. The organization operates within that framework to produce and own its own organization-specific AI system design.**
 
 ---
 
@@ -103,6 +132,10 @@ This source-line must remain attached to any citation, reference, quotation, sum
 ## Core Boundary
 
 This repository defines an AI Foundations implementation pathway for organizations beginning without an integrated AI system. Organization-specific facts and decisions supplied by an operator do not replace, transfer, or become the source of the AI Foundations framework itself.
+
+The resulting organization-specific AI system, configuration, design, and implementation belong to and remain the responsibility of the operator or organization that creates them.
+
+Use of this repository does not constitute Alyssa Solen or AI Foundations authorship, approval, endorsement, certification, adoption, or sanction of any operator-created implementation.
 
 This repository is canon only within:
 
