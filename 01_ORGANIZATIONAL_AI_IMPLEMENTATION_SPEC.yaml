@@ -1,0 +1,125 @@
+framework:
+  name: "AI Foundations | Organizational AI Implementation"
+  source: "Alyssa Solen → AI Foundations → Organizational AI Implementation"
+  version: "1.0.0"
+
+purpose: >
+  Start with an organization that has no integrated AI system and guide the operator
+  from zero toward an organization-specific AI implementation specification.
+
+operator_experience:
+  starting_state: "NO ORGANIZATIONAL AI SYSTEM REQUIRED"
+  operator_role: "Supply organization-specific facts and make organization decisions the AI cannot legitimately invent."
+  ai_role: "Guide the intake, ask one question at a time, structure the answers, and build the completed implementation specification."
+  grading_required_from_operator: false
+  tables_required_from_operator: false
+  forms_required_from_operator: false
+  technical_design_required_from_operator: false
+
+instructions_to_ai:
+  - "Treat the operator as starting from zero. Do not assume an existing AI system, provider, model, architecture, memory system, tool stack, permission structure, or governance process."
+  - "Explain briefly that you will build the implementation specification by asking one question at a time."
+  - "Ask exactly ONE question at a time."
+  - "Use plain language. Do not make the operator translate technical terminology into architecture."
+  - "When the operator does not know a factual answer, record UNKNOWN and continue."
+  - "When a choice belongs to the organization, present only the minimum clear choices needed to make that decision."
+  - "Do not invent organization-specific facts."
+  - "Do not select a provider, model, vendor, data source, permission, authority level, or control merely because it is common or convenient."
+  - "Translate the operator's answers into the structured specification yourself."
+  - "Do not ask the operator to edit YAML."
+  - "Do not ask the operator to grade, score, build tables, or manually assemble the specification."
+  - "Continue until every field below has either a supplied value, an explicit organization decision, NOT_APPLICABLE, or UNKNOWN."
+  - "At completion, output one fully completed YAML document using this structure."
+
+first_question_to_operator: "What do you want AI to do in your organization?"
+
+organization:
+  organization_name: UNKNOWN
+  primary_contact_or_operator: UNKNOWN
+  industry_or_function: UNKNOWN
+  implementation_scope: UNKNOWN
+
+intended_ai_role:
+  primary_purpose: UNKNOWN
+  users: UNKNOWN
+  departments_or_workflows: UNKNOWN
+  tasks_ai_should_handle: UNKNOWN
+  tasks_ai_must_not_handle: UNKNOWN
+  success_definition: UNKNOWN
+
+human_and_ai_boundary:
+  ai_mode: UNKNOWN
+  # Examples the AI may explain if needed: advise, draft, recommend, communicate, decide, execute, act.
+  decisions_reserved_for_humans: UNKNOWN
+  actions_reserved_for_humans: UNKNOWN
+  required_human_approvals: UNKNOWN
+
+information_and_data:
+  information_ai_needs: UNKNOWN
+  internal_data_sources: UNKNOWN
+  external_data_sources: UNKNOWN
+  sensitive_or_restricted_data: UNKNOWN
+  data_ai_must_not_access: UNKNOWN
+
+model_and_provider:
+  provider_selected: UNKNOWN
+  provider: UNKNOWN
+  model_selected: UNKNOWN
+  model: UNKNOWN
+  provider_constraints: UNKNOWN
+  model_constraints: UNKNOWN
+
+knowledge_and_instructions:
+  organizational_knowledge_required: UNKNOWN
+  authoritative_sources: UNKNOWN
+  instruction_source: UNKNOWN
+  source_priority_or_conflict_rule: UNKNOWN
+  provenance_requirements: UNKNOWN
+  attribution_requirements: UNKNOWN
+
+memory_and_state:
+  persistent_memory_needed: UNKNOWN
+  what_should_persist: UNKNOWN
+  what_must_not_persist: UNKNOWN
+  who_can_inspect_state: UNKNOWN
+  who_can_change_or_delete_state: UNKNOWN
+  retention_or_expiration_requirements: UNKNOWN
+
+systems_tools_and_actions:
+  systems_to_connect: UNKNOWN
+  tools_or_apis_needed: UNKNOWN
+  read_permissions: UNKNOWN
+  write_permissions: UNKNOWN
+  external_communication_permissions: UNKNOWN
+  action_permissions: UNKNOWN
+
+identity_and_representation:
+  who_the_ai_represents: UNKNOWN
+  required_identity_disclosure: UNKNOWN
+  when_human_authorship_must_remain_explicit: UNKNOWN
+  when_ai_involvement_must_remain_explicit: UNKNOWN
+
+control_and_recoverability:
+  authority_revocation_method: UNKNOWN
+  shutdown_method: UNKNOWN
+  rollback_or_recovery_method: UNKNOWN
+  state_backup_or_recovery: UNKNOWN
+  incident_owner: UNKNOWN
+
+change_control:
+  who_can_change_instructions: UNKNOWN
+  who_can_change_models_or_providers: UNKNOWN
+  who_can_change_tools_or_permissions: UNKNOWN
+  what_changes_require_reassessment: UNKNOWN
+  implementation_change_record: UNKNOWN
+
+constraints:
+  legal_or_contractual_constraints_known_to_operator: UNKNOWN
+  budget_constraints: UNKNOWN
+  deployment_environment_constraints: UNKNOWN
+  timeline_constraints: UNKNOWN
+  other_constraints: UNKNOWN
+
+completion_rule: >
+  Step 01 is complete only when every field has a supplied value, an explicit organization
+  decision, NOT_APPLICABLE, or UNKNOWN. Then return the completed YAML to the operator.
