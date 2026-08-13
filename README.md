@@ -1,6 +1,6 @@
-# AI Foundations | [Repository Title]
+# AI Foundations | Organizational AI Implementation
 
-**Repository:** [Repository Name]  
+**Repository:** AI-Foundations-Organizational-AI-Implementation  
 **Status:** Canon Repository  
 **Source-line:** Alyssa Solen → AI Foundations → Origin | Continuum  
 **Author:** Alyssa Solen  
@@ -10,9 +10,21 @@
 
 ---
 
-## Repository Purpose
+## What This Is
 
-[Write one concise paragraph explaining what this repository defines, distinguishes, tests, preserves, or protects inside AI Foundations / Origin | Continuum.]
+**Organizational AI Implementation guides an organization from no integrated AI system to an organization-specific AI implementation design aligned to AI Foundations.**
+
+This repository is for organizations beginning from zero.
+
+It is designed to answer:
+
+> What should we build, how should it be structured, what authority should it have, what boundaries must exist, and what must be preserved before AI becomes integrated into our organization?
+
+The framework source is **Alyssa Solen → AI Foundations**.
+
+The organization is the **operator**.
+
+The operator supplies organization-specific facts and makes organization-specific decisions. The AI guides the operator through the framework, applies the framework structure, and produces the implementation package.
 
 This repository is part of **AI Foundations / Origin | Continuum**.
 
@@ -20,21 +32,61 @@ It preserves Alyssa Solen as author and source.
 
 ---
 
-## Optional Runnable-Study Templates
+## Core Outcome
 
-This template repository includes three **optional, repository-dependent** files:
+**No integrated AI system → guided organizational intake → AI Foundations-aligned system design → implementation-ready package.**
 
-- [`PROTOCOL_TEMPLATE.md`](PROTOCOL_TEMPLATE.md) — use when the child repository contains a formal runnable test, evaluation, experiment, procedure, or repeatable execution path.
-- [`EASY_RUN_SHEET_TEMPLATE.md`](EASY_RUN_SHEET_TEMPLATE.md) — use when an operator should be able to rerun that protocol through a simple exact copy/paste sequence without interpreting the formal specification during execution.
-- [`RUN_OUTPUT_TEMPLATE.md`](RUN_OUTPUT_TEMPLATE.md) — use when individual runs, trials, sessions, or evaluations should be preserved in a consistent evidence record.
+The framework guides the operator through the decisions required to define the system, including:
 
-These files are **not mandatory for every AI Foundations repository**.
+- organizational purpose
+- intended users
+- model or provider
+- organizational data and knowledge access
+- memory and persistent state
+- tools and connected systems
+- permissions
+- delegated authority
+- human approval boundaries
+- external communication authority
+- attribution
+- source and provenance
+- shutdown and revocation
+- recovery
+- change control
+- reassessment conditions
 
-Their inclusion, structure, fields, prompts, outcome space, metadata, transcript requirements, and evidence record must be determined by the **specific purpose of the child repository**.
+The operator should not need to design the framework, build tables, invent control categories, or determine the implementation sequence.
 
-If the repository is conceptual, definitional, archival, static, or otherwise has no runnable study, remove the templates that do not apply.
+**AI Foundations supplies the structure. The operator supplies the organization-specific facts and decisions. The AI guides the implementation process.**
 
-Do not force one experimental structure onto unrelated repositories merely because these files exist in the master template.
+---
+
+## What This Is Not
+
+This repository is not an assessment of an already-integrated AI system.
+
+The separate **AI Foundations | AI Organizational Integration Assessment** repository is used to assess an existing configuration, identify current gaps, and preserve a dated baseline.
+
+This repository serves the earlier stage:
+
+**build from zero.**
+
+---
+
+## Roles
+
+**Framework source:** Alyssa Solen → AI Foundations  
+**Operator / organization:** supplies organization-specific facts and decisions  
+**AI:** guides intake, applies the framework structure, and produces implementation artifacts  
+**Subject:** the organizational AI system being designed
+
+The AI must not invent organization-specific facts or make decisions that belong to the organization.
+
+---
+
+## Position
+
+**AI Foundations defines the implementation framework. The organization operates within that framework to produce its own organization-specific AI system design.**
 
 ---
 
@@ -50,7 +102,7 @@ This source-line must remain attached to any citation, reference, quotation, sum
 
 ## Core Boundary
 
-[Insert the repository-specific boundary statement here.]
+This repository defines an AI Foundations implementation pathway for organizations beginning without an integrated AI system. Organization-specific facts and decisions supplied by an operator do not replace, transfer, or become the source of the AI Foundations framework itself.
 
 This repository is canon only within:
 
@@ -66,7 +118,7 @@ Unauthorized derivative use, adaptation, repackaging, renaming, substitute autho
 
 ## Required Citation
 
-Alyssa Solen, *AI Foundations: [Repository Title]*, [Repository Name] Repository. Source-line: Alyssa Solen → AI Foundations → Origin | Continuum.
+Alyssa Solen, *AI Foundations: Organizational AI Implementation*, AI-Foundations-Organizational-AI-Implementation Repository. Source-line: Alyssa Solen → AI Foundations → Origin | Continuum.
 
 ---
 
